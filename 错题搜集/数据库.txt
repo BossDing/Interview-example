@@ -1,0 +1,11 @@
+#===================================
+数据库获取结果集
+
+#-----------------------------------
+Statement sta=con.createStatement();
+ResultSet rst=sta.executeQuery("select * from book");
+
+PreparedStatement pst=con.prepareStatement(“select * from book”);
+ResultSet rst=pst.executeQuery();
+
+#----------------------------------
