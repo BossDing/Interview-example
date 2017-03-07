@@ -1,0 +1,18 @@
+//=====================================================
+static 和 普通 类的区别
+
+public class Code {
+	public class InsideOne(){}
+	public static class InsideTwo(){}
+
+}
+
+class MyCode{
+	
+	public static void main(String[] args){
+		Code.InsideOne obj1=new Code.new InsideOne();
+		Code.InsideTwo obj2=new Code.InsideTwo()
+	}
+}
+
+//-------------------------------------------------------
