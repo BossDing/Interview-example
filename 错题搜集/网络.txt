@@ -1,0 +1,6 @@
+ServerSocket  (int port)
+创建一个serversocket 绑定在特定的端口
+
+Socket(InetAddress address, int port)
+创建一个socket流，连接到特定的端口和ip地址
+
